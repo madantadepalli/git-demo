@@ -8,6 +8,9 @@ public class App
 {
 	
 	public void addData(String data) {
+		if (data != null) {
+			System.out.println("Not null............");
+		}
 		System.out.println("data " + data);
 	}
 	
