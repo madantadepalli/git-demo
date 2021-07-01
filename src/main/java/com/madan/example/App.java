@@ -14,7 +14,7 @@ public class App
 	}
 	
 	public void addMethod() {
-		System.out.println("Welcome ");
+		System.out.println("Welcome Madan!!!");
 	}
 	
     public static void main( String[] args )
