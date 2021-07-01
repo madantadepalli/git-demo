@@ -8,10 +8,9 @@ public class App
 {
 	
 	public void addData(String data) {
-		if (data != null) {
-			System.out.println("Not null............");
+		if (data.equals(Constants.DATA_TYPE)) {
+			System.out.println("Welcome " + data);
 		}
-		System.out.println("data " + data);
 	}
 	
     public static void main( String[] args )
